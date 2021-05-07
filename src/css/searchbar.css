@@ -29,6 +29,8 @@
     font-size: 2rem;
     border:none;
  border-bottom: 1px solid gray;
+ /* overflow: inherit; */
+ padding-right: 3rem;
 }
 
 .options{

@@ -46,9 +46,9 @@ const SearchBar = () => {
               GetSuggestions(event.target.value, event.keyCode);
             }, 200)}
           />
-          <button className="clear" onClick={handleClearBtn}>
+            {input.length > 0 ? <button className="clear" onClick={handleClearBtn}>
             X
-          </button>
+          </button> : null } 
         </div>
         <ul className="suggestion-list" ref={ulRef}>
           <Suggestions options={options} setInput={setInput} />
