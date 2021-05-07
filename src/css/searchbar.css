@@ -39,4 +39,18 @@
 
 .list{
     border: none;
+    padding-right: 3rem;
+    overflow-x: hidden;
+    /* overflow-wrap: hidden; */
+    
+    
+}
+.suggestion-list{
+    max-width: 40rem; 
+    background-color: white;
+    /* margin-right: 3rem; */
+    
+}
+.result-lists{
+    margin-right: 3rem;
 }

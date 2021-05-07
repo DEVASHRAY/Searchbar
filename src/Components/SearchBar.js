@@ -51,7 +51,10 @@ const SearchBar = () => {
           </button> : null } 
         </div>
         <ul className="suggestion-list" ref={ulRef}>
-          <Suggestions options={options} setInput={setInput} />
+          <div className = "result-lists">
+            <Suggestions options={options} setInput={setInput} /> 
+          </div>
+         
         </ul>
       </div>
     </>
