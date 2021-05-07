@@ -39,7 +39,7 @@ const SearchBar = () => {
             id="searchbar"
             className="form-control form-control-lg"
             type="text"
-            placeholder="Search Here"
+            placeholder="Search here"
             value={input}
             onChange={handleInputChange}
             onKeyUp={debounce((event) => {
